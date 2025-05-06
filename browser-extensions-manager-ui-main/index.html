@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Browser Extensions Manager</title>
+</head>
+<body>
+  <div class="container">
+    <div class="extensions-title">Extensions List</div>
+    
+    <div class="extensions-filter">
+      <span class="filter active" data-filter="all">All</span>
+      <span class="filter" data-filter="active">Active</span>
+      <span class="filter" data-filter="inactive">Inactive</span>
+    </div>
+    
+    <div class="extensions-list">
+      <div class="extension-card">
+        <div class="icon"><img src="./assets/images/logo-devlens.svg" alt=""></div>
+        <div class="info">
+          <h3>DevLens</h3>
+          <p>Quickly inspect page layouts and visualize element boundaries.</p>
+        </div>
+        <div class="actions">
+          <button class="remove-btn">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
